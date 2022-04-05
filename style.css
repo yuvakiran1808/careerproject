@@ -7,3 +7,43 @@ background-image: linear-gradient(315deg, #f5d020 0%, #e8633e 74%);
 
 
 }
+footer{
+    background-color: #051D33;
+}
+li{
+    list-style: none;
+}
+.round{
+    border-radius: 30px;
+    padding:8px;
+
+}
+.icoFacebook{
+    border: 1px solid #3b579d;
+   background-color:  #3b579d;
+}
+.icoLinkedin{
+    border: 1px solid #0177b5;
+   background-color:  #0177b5;;
+}
+.icoYoutube{
+    border: 1px solid #e52d27;
+   background-color:  #e52d27;
+}
+.icoInstagram{
+    /* border: 1px solid #dc4a38; */
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+
+}
+.bg{
+    background-color: #C4C4C4;
+}
+.size
+{
+    background-color: #051D33;
+    color: white;
+    width: 30vh;
+     border: none;
+     border-radius: 2px;
+     padding: 5px;
+}
