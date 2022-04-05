@@ -1,3 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Quicksand", sans-serif;
+    background-image: url("./images/top-bg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  #service-wrapper {
+    background-image: url("./images/left-circle.png");
+    background-repeat: no-repeat;
+    background-position: top-left;
+    background-size: 300px;
+  }
+  #testimonial-bg {
+    background-image: url("./images/circle-left2.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20px;
+  }
+  #people-bg {
+    background-image: url("./images/right-circle.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
 .gap{
     padding: 70px 0px;
 }
@@ -51,4 +79,8 @@ li{
     padding-bottom: 5px;
   border-bottom: 2px solid white;
   line-height: 30px;
+}
+#founderbg{
+    background-color: #53AFA4;
+    padding: 30px;
 }
