@@ -26,6 +26,9 @@
     background-repeat: no-repeat;
     background-position: right;
   }
+#navbarNav{
+  font-size: 16px;
+}
 .gap{
     padding: 70px 0px;
 }
@@ -42,27 +45,26 @@ li{
     list-style: none;
 }
 .round{
-    border-radius: 30px;
-    padding:8px;
-
+  border-radius: 50%;
+  padding:10px;
 }
 .icoFacebook{
     border: 1px solid #3b579d;
-   background-color:  #3b579d;
+   background-color:  #272EAE;
 }
-.icoLinkedin{
+.icotwitter{
     border: 1px solid #0177b5;
    background-color:  #0177b5;;
 }
 .icoYoutube{
     border: 1px solid #e52d27;
-   background-color:  #e52d27;
+   background-color:  #D0021B;;
 }
 .icoInstagram{
     /* border: 1px solid #dc4a38; */
     background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
-
 }
+
 .bg{
     background-color: #C4C4C4;
 }
@@ -83,4 +85,309 @@ li{
 #founderbg{
     background-color: #53AFA4;
     padding: 30px;
+}
+
+@media (min-width: 200px)  and (max-width: 330px) {
+  .videodimen{
+    width: 250px;
+    height: 200px;
+    border-radius: 24px;
+  }
+}
+@media (min-width: 330px)  and (max-width: 480px) {
+  .videodimen{
+    width: 320px;
+    height: 200px;
+    border-radius: 24px;
+    
+  }
+}
+@media (min-width: 490px)  and (max-width: 768px) {
+  .videodimen{
+    width: 400px;
+    height: 300px;
+    border-radius: 24px;
+    
+  }
+}
+@media (min-width: 769px)  and (max-width: 1024px) {
+  .videodimen{
+    width: 400px;
+    height: 300px;
+    border-radius: 24px;
+    
+  }
+}
+@media (min-width: 1025px)  and (max-width: 1200px) {
+  .videodimen{
+    width: 500px;
+    height: 300px;
+    border-radius: 24px;
+    
+  }
+}
+@media  (min-width: 1200px) {
+  .videodimen{
+    width: 500px;
+    height: 300px;
+    border-radius: 24px;
+    
+  }
+}
+
+.millionhead{
+  font-size: 42px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 57px;
+ 
+}
+.milliontext{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: justify;
+   
+}
+.vmhead{
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 72px;
+text-align: justify;
+}
+.vmtext{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+text-align: justify;
+}
+.servicemainheader{
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+} 
+.servicehead{
+  font-style: normal;
+font-weight: 400;
+font-size: 48px;
+text-align: center;
+}
+.servicetext{
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 46px;
+text-align: justify;
+}
+.bloghead{
+  font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 32px;
+}
+.blogbighead{
+  font-weight: 400;
+font-size: 48px;
+line-height: 72px;
+text-transform: uppercase;
+}
+
+.blogimgtext{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.readnow{
+  font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+}
+.footerleft{
+  font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+text-align: justify;
+}
+.footermid{
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 175.78%;
+}
+.termtext{
+  font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 175.78%;
+}
+.socialicon{
+  
+    display: flex;
+  justify-content: center;
+
+}
+.aboutheader{
+  font-weight: 800;
+font-size: 60px;
+line-height: 72px;
+}
+.visionimg{
+  width: 476px;
+height: 299px;
+}
+.footertitle{
+  width: 167.3px;
+height: 63.53px;
+background-color: #FFFFFF;
+padding: 10px;
+}
+.bloghead{
+  font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 72px;
+}
+.blogtext{
+  font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 75px;
+}
+.blogpro{
+  font-weight: 600;
+font-size: 16px;
+line-height: 20px; 
+ text-align: justify;
+}
+.blogtextp{
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: justify;
+}
+.blogimg{
+  width: 431px;
+height: 465px;
+left: 146px;
+top: 547px;
+}
+.contacthead{
+  font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 72px;
+}
+.contacttext{
+  font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 230.28%;
+text-align: justify;
+color: #5C5C5C;
+}
+.contactlabel{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 140.78%;
+}
+.addresshead{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 140.78%;
+text-align: justify;
+margin-left: 50px;
+}
+.addresstext{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 230.28%;
+color: #5C5C5C;
+font-feature-settings: 'case' on;
+text-align: justify;
+margin-left: 50px;
+
+}
+.contactemail{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 230%;
+text-align: justify;
+margin-left: 50px;
+}
+input{
+  margin-top: 10px;
+}
+.sendbutton{
+  background: #051D33;
+border-radius: 5px;
+border: none;
+color: white;
+width: 218px;
+font-style: normal;
+font-weight: 700;
+font-size: 20px
+}
+.foundername{
+  font-style: normal;
+font-weight: 700;
+font-size: 45px;
+}
+.foundertext{
+  font-style: normal;
+font-weight: 700;
+font-size: 30px;
+}
+.founderdetail{
+  font-weight: 400;
+font-size: 20px;
+}
+.fwordstext{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+text-align: justify;
+}
+.founderimg{
+height: 300px;
+}
+.aboutmid{
+  font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 52px;
+}
+.aboutmidtext{
+  font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 52px;
+text-align: justify;
+}
+.cofoundername{
+  font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+}
+.cotitle{
+  font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 28px;
+}
+.cotext{
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
 }
