@@ -8,6 +8,7 @@
     background-image: url("../images/top-bg.png");
     background-repeat: no-repeat;
     background-position: top;
+    background-color: #E5E5E5;
   }
   #service-wrapper {
     background-image: url("../images/left-circle.png");
@@ -29,9 +30,7 @@
 #navbarNav{
   font-size: 16px;
 }
-.gap{
-    padding: 70px 0px;
-}
+
 .warning{
     background-color: #f5d020;
 background-image: linear-gradient(315deg, #f5d020 0%, #e8633e 74%);
@@ -46,7 +45,7 @@ li{
 }
 .round{
   border-radius: 50%;
-  padding:10px;
+  padding:15px;
 }
 .icoFacebook{
     border: 1px solid #3b579d;
@@ -61,7 +60,6 @@ li{
    background-color:  #D0021B;;
 }
 .icoInstagram{
-    /* border: 1px solid #dc4a38; */
     background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
 }
 
@@ -77,10 +75,13 @@ li{
      border-radius: 2px;
      padding: 5px;
 }
-.span1{
+.underline1{
     padding-bottom: 5px;
-  border-bottom: 2px solid white;
-  line-height: 30px;
+  border-bottom: 1px solid white;
+}
+.underline2{
+  padding-bottom: 5px;
+border-bottom: 2px solid white;
 }
 #founderbg{
     background-color: #53AFA4;
@@ -93,6 +94,14 @@ li{
     height: 200px;
     border-radius: 24px;
   }
+  .termtext{
+    font-style: normal;
+  font-weight: 600;
+  font-size:18px;
+ display: flex;
+ text-align: center;
+ justify-content: center;
+  }
 }
 @media (min-width: 330px)  and (max-width: 480px) {
   .videodimen{
@@ -100,6 +109,14 @@ li{
     height: 200px;
     border-radius: 24px;
     
+  }
+  .termtext{
+    font-style: normal;
+  font-weight: 600;
+  font-size:18px;
+ display: flex;
+ text-align: center;
+ justify-content: center;
   }
 }
 @media (min-width: 490px)  and (max-width: 768px) {
@@ -131,7 +148,6 @@ li{
     width: 500px;
     height: 300px;
     border-radius: 24px;
-    
   }
 }
 
@@ -146,6 +162,7 @@ li{
   font-weight: 400;
   line-height: 28px;
   text-align: justify;
+  color: #777777;
 }
 .vmhead{
 font-style: normal;
@@ -158,7 +175,7 @@ text-align: justify;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 28px;
+color: #777777;
 text-align: justify;
 }
 .servicemainheader{
@@ -169,14 +186,13 @@ font-size: 60px;
 .servicehead{
   font-style: normal;
 font-weight: 400;
-font-size: 48px;
-text-align: center;
+font-size: 45px;
 }
 .servicetext{
   font-style: normal;
 font-weight: 400;
 font-size: 20px;
-line-height: 46px;
+color: #777777;
 text-align: justify;
 }
 .bloghead{
@@ -190,12 +206,16 @@ line-height: 32px;
 font-size: 48px;
 line-height: 72px;
 text-transform: uppercase;
+left: calc(50% - 842px/2);
+align-items: center;
+text-align: center;
 }
 
 .blogimgtext{
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
+  color: #000000;
 }
 .readnow{
   font-weight: 700;
@@ -212,15 +232,12 @@ text-align: justify;
 font-style: normal;
 font-weight: 600;
 font-size: 25px;
-line-height: 175.78%;
-/* text-align: justify; */
-justify-content: center;
+text-align: justify;
 }
 .termtext{
   font-style: normal;
 font-weight: 600;
-font-size: 1.1250em;
-line-height: 175.78%;
+font-size:18px;
 }
 .socialicon{
   
@@ -391,3 +408,4 @@ font-weight: 400;
 font-size: 14px;
 line-height: 28px;
 }
+
