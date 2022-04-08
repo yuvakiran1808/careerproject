@@ -5,25 +5,25 @@
   }
   body {
     font-family: "Quicksand", sans-serif;
-    background-image: url("../images/top-bg.png");
+    background-image: url("./images/top-bg.png");
     background-repeat: no-repeat;
     background-position: top;
     background-color: #E5E5E5;
   }
   #service-wrapper {
-    background-image: url("../images/left-circle.png");
+    background-image: url("./images/left-circle.png");
     background-repeat: no-repeat;
     background-position: top-left;
     background-size: 300px;
   }
   #testimonial-bg {
-    background-image: url("../images/circle-left2.png");
+    background-image: url("./images/circle-left2.png");
     background-repeat: no-repeat;
     background-position: left;
     background-size: 20px;
   }
   #people-bg {
-    background-image: url("../images/right-circle.png");
+    background-image: url("./images/right-circle.png");
     background-repeat: no-repeat;
     background-position: right;
   }
